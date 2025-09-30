@@ -6,8 +6,19 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
+  <style>
+      .custom-dark-gradient {
+          background-image: linear-gradient(to right, #434343 0%, black 100%);
+      }
+      .custom-sunset-gradient {
+       background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+      }
+      .custom-dense-water-gradient {
+       background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+      }
+  </style>
   <body class="bg-gray-100">
-    <header class="p-4 bg-blue-500 py-40" >
+    <header class="p-4 custom-dark-gradient py-40" >
       <div class="mx-auto text-center text-white">
         <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold">
           Hallo ich bin
@@ -19,12 +30,12 @@
             >Leon Winde</a
           >
         </h1>
-        <p class="text-lg md:text-2xl lg:text-4xl text-center text-emerald-400 mt-4">
+        <p class="text-lg md:text-2xl lg:text-4xl text-center text-emerald-300 mt-4">
           Ein angehender Webentwickler
         </p>
       </div>
     </header>
-    <section class="py-20 bg-gradient-to-r from-blue-100 via-emerald-50 to-blue-200">
+    </p><section class="py-20 custom-dense-water-gradient">
         <div class="max-w-3xl mx-auto px-6">
             <div class="bg-white rounded-xl shadow-lg p-8">
                 <h2 class="text-3xl font-extrabold text-blue-600 mb-6 text-center">What We Learned</h2>
