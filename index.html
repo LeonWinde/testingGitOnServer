@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h2>Things we learned</h2>
-    <ol>
-        <li>how not to create an index.html file on an ubuntu Server</li>
-        <li>/www/leon and /home/leon are not the same dir</li>
-        <li>we have no idea what we're doing</li>
-    </ol>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="p-4 bg-blue-500 py-40" >
+      <div class="mx-auto text-center text-white">
+        <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold">
+          Hallo ich bin
+          <a
+            href="https://github.com/LeonWinde"
+            class="text-emerald-500 hover:text-emerald-700"
+            referrerpolicy="no-referrer"
+            target="_blank"
+            >Leon Winde</a
+          >
+        </h1>
+        <p class="text-lg md:text-2xl lg:text-4xl text-center text-emerald-400 mt-4">
+          Ein angehender Webentwickler
+        </p>
+      </div>
+    </header>
+    <section class="py-20 bg-gradient-to-r from-blue-100 via-emerald-50 to-blue-200">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-3xl font-extrabold text-blue-600 mb-6 text-center">What We Learned</h2>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center">
+                        <span class="inline-block w-3 h-3 bg-emerald-400 rounded-full mr-3"></span>
+                        <span class="text-gray-700">How <span class="font-semibold text-blue-500">not</span> to create an <code class="bg-gray-100 px-1 rounded">index.html</code> file on an Ubuntu server</span>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="inline-block w-3 h-3 bg-emerald-400 rounded-full mr-3"></span>
+                        <span class="text-gray-700"><code class="bg-gray-100 px-1 rounded">/www/leon</code> and <code class="bg-gray-100 px-1 rounded">/home/leon</code> are <span class="font-semibold text-blue-500">not</span> the same directory</span>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="inline-block w-3 h-3 bg-emerald-400 rounded-full mr-3"></span>
+                        <span class="text-gray-700">We have <span class="font-semibold text-blue-500">no idea</span> what we're doing</span>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <a
+                        href="http://devshub.dci-web-dev.com/~sven/"
+                        class="inline-block px-8 py-3 bg-emerald-500 text-white font-bold rounded-lg shadow-md hover:bg-emerald-600 transition-colors duration-300"
+                    >
+                        Check out my classmate's project &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
 </html>
